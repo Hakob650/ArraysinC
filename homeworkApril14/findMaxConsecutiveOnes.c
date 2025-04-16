@@ -7,8 +7,7 @@ int findMaxConsecutiveOnes(int* nums, int numsSize) {
 			current++;
 		     if(current>max){
 			max=current;
-		    }
-		}else{
+		    }else{
 			current=0;
 	        }
 	   }return max;
